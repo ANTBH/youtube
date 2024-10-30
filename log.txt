@@ -1,0 +1,254 @@
+[29-Oct-24 15:50:53 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[29-Oct-24 15:50:53 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[29-Oct-24 15:50:53 - INFO] - SYSTUM.core.dir - Directories Updated.
+[29-Oct-24 15:50:53 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[29-Oct-24 15:50:53 - INFO] - SYSTUM.misc - Local Database Initialized.
+[29-Oct-24 15:50:53 - INFO] - SYSTUM.core.bot - Starting Bot...
+[29-Oct-24 15:53:09 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[29-Oct-24 15:53:09 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[29-Oct-24 15:53:09 - INFO] - SYSTUM.core.dir - Directories Updated.
+[29-Oct-24 15:53:09 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[29-Oct-24 15:53:09 - INFO] - SYSTUM.misc - Local Database Initialized.
+[29-Oct-24 15:53:09 - INFO] - SYSTUM.core.bot - Starting Bot...
+[29-Oct-24 15:55:40 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[29-Oct-24 15:55:40 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[29-Oct-24 15:55:40 - INFO] - SYSTUM.core.dir - Directories Updated.
+[29-Oct-24 15:55:40 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[29-Oct-24 15:55:40 - INFO] - SYSTUM.misc - Local Database Initialized.
+[29-Oct-24 15:55:40 - INFO] - SYSTUM.core.bot - Starting Bot...
+[29-Oct-24 15:59:01 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[29-Oct-24 15:59:01 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[29-Oct-24 15:59:01 - INFO] - SYSTUM.core.dir - Directories Updated.
+[29-Oct-24 15:59:01 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[29-Oct-24 15:59:01 - INFO] - SYSTUM.misc - Local Database Initialized.
+[29-Oct-24 15:59:01 - INFO] - SYSTUM.core.bot - Starting Bot...
+[29-Oct-24 15:59:04 - INFO] - SYSTUM.misc - Sudoers Loaded.
+[29-Oct-24 15:59:09 - INFO] - SYSTUM.core.bot - Music Bot Started as مشغل مواد دعوة أهل البيت 
+[29-Oct-24 15:59:09 - INFO] - SYSTUM.plugins - Successfully Imported Modules...
+[29-Oct-24 15:59:09 - INFO] - SYSTUM.core.userbot - Starting Assistants...
+[29-Oct-24 15:59:10 - INFO] - SYSTUM.core.userbot - Assistant Started as <a href=tg://user?id=8019187046>ايوب</a>
+[29-Oct-24 15:59:10 - INFO] - SYSTUM.core.call - Starting PyTgCalls Client...
+
+[29-Oct-24 15:59:11 - INFO] - SYSTUM - DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @BRANDEDKING82 JOIN @BRANDRD_BOT , @BRANDED_WORLD FOR ANY ISSUES
+[29-Oct-24 15:59:36 - ERROR] - pyrogram.dispatcher - Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 54, in get_input_media_from_file_id
+    decoded = FileId.decode(file_id)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/file_id.py", line 205, in decode
+    major = decoded[-1]
+IndexError: index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/dispatcher.py", line 355, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/root/SYSTUM/SYSTUM/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/root/SYSTUM/SYSTUM/plugins/bot/start.py", line 104, in start_gp
+    await message.reply_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/types/messages_and_media/message.py", line 2732, in reply_photo
+    return await self._client.send_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/methods/messages/send_photo.py", line 205, in send_photo
+    media = utils.get_input_media_from_file_id(photo, FileType.PHOTO, ttl_seconds=(1 << 31) - 1 if view_once else ttl_seconds, has_spoiler=has_spoiler)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 56, in get_input_media_from_file_id
+    raise ValueError(
+ValueError: Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+[29-Oct-24 16:00:16 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[29-Oct-24 16:00:16 - INFO] - SYSTUM.core.userbot - Stopping Assistants...
+[29-Oct-24 16:00:16 - INFO] - SYSTUM - Stopping SYSTUM Music Bot...
+[29-Oct-24 16:00:27 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[29-Oct-24 16:00:28 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[29-Oct-24 16:00:28 - INFO] - SYSTUM.core.dir - Directories Updated.
+[29-Oct-24 16:00:28 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[29-Oct-24 16:00:28 - INFO] - SYSTUM.misc - Local Database Initialized.
+[29-Oct-24 16:00:28 - INFO] - SYSTUM.core.bot - Starting Bot...
+[29-Oct-24 16:00:30 - INFO] - SYSTUM.misc - Sudoers Loaded.
+[29-Oct-24 16:00:37 - INFO] - SYSTUM.core.bot - Music Bot Started as مشغل مواد دعوة أهل البيت 
+[29-Oct-24 16:00:37 - INFO] - SYSTUM.plugins - Successfully Imported Modules...
+[29-Oct-24 16:00:37 - INFO] - SYSTUM.core.userbot - Starting Assistants...
+[29-Oct-24 16:00:39 - INFO] - SYSTUM.core.userbot - Assistant Started as <a href=tg://user?id=8019187046>ايوب</a>
+[29-Oct-24 16:00:39 - INFO] - SYSTUM.core.call - Starting PyTgCalls Client...
+
+[29-Oct-24 16:00:40 - INFO] - SYSTUM - DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @BRANDEDKING82 JOIN @BRANDRD_BOT , @BRANDED_WORLD FOR ANY ISSUES
+[29-Oct-24 16:09:01 - ERROR] - pyrogram.dispatcher - Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 54, in get_input_media_from_file_id
+    decoded = FileId.decode(file_id)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/file_id.py", line 205, in decode
+    major = decoded[-1]
+IndexError: index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/dispatcher.py", line 355, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/root/SYSTUM/SYSTUM/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/root/SYSTUM/SYSTUM/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/types/messages_and_media/message.py", line 2732, in reply_photo
+    return await self._client.send_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/methods/messages/send_photo.py", line 205, in send_photo
+    media = utils.get_input_media_from_file_id(photo, FileType.PHOTO, ttl_seconds=(1 << 31) - 1 if view_once else ttl_seconds, has_spoiler=has_spoiler)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 56, in get_input_media_from_file_id
+    raise ValueError(
+ValueError: Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+[29-Oct-24 16:09:03 - ERROR] - pyrogram.dispatcher - Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 54, in get_input_media_from_file_id
+    decoded = FileId.decode(file_id)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/file_id.py", line 205, in decode
+    major = decoded[-1]
+IndexError: index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/dispatcher.py", line 355, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/root/SYSTUM/SYSTUM/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/root/SYSTUM/SYSTUM/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/types/messages_and_media/message.py", line 2732, in reply_photo
+    return await self._client.send_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/methods/messages/send_photo.py", line 205, in send_photo
+    media = utils.get_input_media_from_file_id(photo, FileType.PHOTO, ttl_seconds=(1 << 31) - 1 if view_once else ttl_seconds, has_spoiler=has_spoiler)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 56, in get_input_media_from_file_id
+    raise ValueError(
+ValueError: Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+[29-Oct-24 16:15:14 - ERROR] - pyrogram.dispatcher - Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 54, in get_input_media_from_file_id
+    decoded = FileId.decode(file_id)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/file_id.py", line 205, in decode
+    major = decoded[-1]
+IndexError: index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/dispatcher.py", line 355, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/root/SYSTUM/SYSTUM/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/root/SYSTUM/SYSTUM/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/types/messages_and_media/message.py", line 2732, in reply_photo
+    return await self._client.send_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/methods/messages/send_photo.py", line 205, in send_photo
+    media = utils.get_input_media_from_file_id(photo, FileType.PHOTO, ttl_seconds=(1 << 31) - 1 if view_once else ttl_seconds, has_spoiler=has_spoiler)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 56, in get_input_media_from_file_id
+    raise ValueError(
+ValueError: Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+[29-Oct-24 16:15:15 - ERROR] - pyrogram.dispatcher - Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 54, in get_input_media_from_file_id
+    decoded = FileId.decode(file_id)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/file_id.py", line 205, in decode
+    major = decoded[-1]
+IndexError: index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/dispatcher.py", line 355, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/root/SYSTUM/SYSTUM/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/root/SYSTUM/SYSTUM/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/types/messages_and_media/message.py", line 2732, in reply_photo
+    return await self._client.send_photo(
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/methods/messages/send_photo.py", line 205, in send_photo
+    media = utils.get_input_media_from_file_id(photo, FileType.PHOTO, ttl_seconds=(1 << 31) - 1 if view_once else ttl_seconds, has_spoiler=has_spoiler)
+  File "/usr/local/lib/python3.9/site-packages/pyrogram/utils.py", line 56, in get_input_media_from_file_id
+    raise ValueError(
+ValueError: Failed to decode "". The value does not represent an existing local file, HTTP URL, or valid file id.
+[29-Oct-24 16:17:04 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[29-Oct-24 16:17:04 - INFO] - SYSTUM.core.userbot - Stopping Assistants...
+[29-Oct-24 16:17:04 - INFO] - SYSTUM - Stopping SYSTUM Music Bot...
+[29-Oct-24 19:08:13 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[29-Oct-24 19:08:13 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[29-Oct-24 19:08:13 - INFO] - SYSTUM.core.dir - Directories Updated.
+[29-Oct-24 19:08:13 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[29-Oct-24 19:08:13 - INFO] - SYSTUM.misc - Local Database Initialized.
+[29-Oct-24 19:08:13 - INFO] - SYSTUM.core.bot - Starting Bot...
+[29-Oct-24 19:08:15 - INFO] - SYSTUM.misc - Sudoers Loaded.
+[29-Oct-24 19:08:20 - INFO] - SYSTUM.core.bot - Music Bot Started as مشغل مواد دعوة أهل البيت 
+[29-Oct-24 19:08:20 - INFO] - SYSTUM.plugins - Successfully Imported Modules...
+[29-Oct-24 19:08:20 - INFO] - SYSTUM.core.userbot - Starting Assistants...
+[29-Oct-24 19:08:22 - INFO] - SYSTUM.core.userbot - Assistant Started as <a href=tg://user?id=8019187046>ايوب</a>
+[29-Oct-24 19:08:22 - INFO] - SYSTUM.core.call - Starting PyTgCalls Client...
+
+[29-Oct-24 19:08:22 - INFO] - SYSTUM - DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @BRANDEDKING82 JOIN @BRANDRD_BOT , @BRANDED_WORLD FOR ANY ISSUES
+[29-Oct-24 19:19:56 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[29-Oct-24 19:19:56 - INFO] - SYSTUM.core.userbot - Stopping Assistants...
+[29-Oct-24 19:19:56 - INFO] - SYSTUM - Stopping SYSTUM Music Bot...
+[29-Oct-24 19:20:00 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[29-Oct-24 19:20:01 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[29-Oct-24 19:20:01 - INFO] - SYSTUM.core.dir - Directories Updated.
+[29-Oct-24 19:20:01 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[29-Oct-24 19:20:01 - INFO] - SYSTUM.misc - Local Database Initialized.
+[29-Oct-24 19:20:01 - INFO] - SYSTUM.core.bot - Starting Bot...
+[29-Oct-24 19:20:03 - INFO] - SYSTUM.misc - Sudoers Loaded.
+[29-Oct-24 19:20:09 - INFO] - SYSTUM.core.bot - Music Bot Started as مشغل مواد دعوة أهل البيت 
+[29-Oct-24 19:20:09 - INFO] - SYSTUM.plugins - Successfully Imported Modules...
+[29-Oct-24 19:20:09 - INFO] - SYSTUM.core.userbot - Starting Assistants...
+[29-Oct-24 19:20:10 - INFO] - SYSTUM.core.userbot - Assistant Started as <a href=tg://user?id=8019187046>ايوب</a>
+[29-Oct-24 19:20:10 - INFO] - SYSTUM.core.call - Starting PyTgCalls Client...
+
+[29-Oct-24 19:20:11 - INFO] - SYSTUM - DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @BRANDEDKING82 JOIN @BRANDRD_BOT , @BRANDED_WORLD FOR ANY ISSUES
+[29-Oct-24 19:22:13 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[29-Oct-24 19:22:13 - INFO] - SYSTUM.core.userbot - Stopping Assistants...
+[29-Oct-24 19:22:13 - INFO] - SYSTUM - Stopping SYSTUM Music Bot...
+[29-Oct-24 19:23:05 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[29-Oct-24 19:23:06 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[29-Oct-24 19:23:06 - INFO] - SYSTUM.core.dir - Directories Updated.
+[29-Oct-24 19:23:06 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[29-Oct-24 19:23:06 - INFO] - SYSTUM.misc - Local Database Initialized.
+[29-Oct-24 19:23:06 - INFO] - SYSTUM.core.bot - Starting Bot...
+[29-Oct-24 19:23:08 - INFO] - SYSTUM.misc - Sudoers Loaded.
+[29-Oct-24 19:23:13 - INFO] - SYSTUM.core.bot - Music Bot Started as مشغل مواد دعوة أهل البيت 
+[29-Oct-24 19:23:13 - INFO] - SYSTUM.plugins - Successfully Imported Modules...
+[29-Oct-24 19:23:13 - INFO] - SYSTUM.core.userbot - Starting Assistants...
+[29-Oct-24 19:23:14 - INFO] - SYSTUM.core.userbot - Assistant Started as <a href=tg://user?id=8019187046>ايوب</a>
+[29-Oct-24 19:23:14 - INFO] - SYSTUM.core.call - Starting PyTgCalls Client...
+
+[29-Oct-24 19:23:15 - INFO] - SYSTUM - DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @BRANDEDKING82 JOIN @BRANDRD_BOT , @BRANDED_WORLD FOR ANY ISSUES
+[29-Oct-24 19:26:20 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[29-Oct-24 19:26:20 - INFO] - SYSTUM.core.userbot - Stopping Assistants...
+[29-Oct-24 19:26:20 - INFO] - SYSTUM - Stopping SYSTUM Music Bot...
+[29-Oct-24 19:28:40 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[29-Oct-24 19:28:40 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[29-Oct-24 19:28:40 - INFO] - SYSTUM.core.dir - Directories Updated.
+[29-Oct-24 19:28:40 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[29-Oct-24 19:28:40 - INFO] - SYSTUM.misc - Local Database Initialized.
+[29-Oct-24 19:28:40 - INFO] - SYSTUM.core.bot - Starting Bot...
+[29-Oct-24 19:28:42 - INFO] - SYSTUM.misc - Sudoers Loaded.
+[29-Oct-24 19:28:48 - INFO] - SYSTUM.core.bot - Music Bot Started as مشغل مواد دعوة أهل البيت 
+[29-Oct-24 19:28:48 - INFO] - SYSTUM.plugins - Successfully Imported Modules...
+[29-Oct-24 19:28:48 - INFO] - SYSTUM.core.userbot - Starting Assistants...
+[29-Oct-24 19:28:49 - INFO] - SYSTUM.core.userbot - Assistant Started as <a href=tg://user?id=8019187046>ايوب</a>
+[29-Oct-24 19:28:49 - INFO] - SYSTUM.core.call - Starting PyTgCalls Client...
+
+[29-Oct-24 19:28:50 - INFO] - SYSTUM - DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @BRANDEDKING82 JOIN @BRANDRD_BOT , @BRANDED_WORLD FOR ANY ISSUES
+[30-Oct-24 03:56:29 - INFO] - SYSTUM.core.mongo - Connecting to your Mongo Database...
+[30-Oct-24 03:56:29 - INFO] - SYSTUM.core.mongo - Connected to your Mongo Database.
+[30-Oct-24 03:56:29 - INFO] - SYSTUM.core.dir - Directories Updated.
+[30-Oct-24 03:56:29 - INFO] - SYSTUM.core.git - Git Client Found [VPS DEPLOYER]
+[30-Oct-24 03:56:29 - INFO] - SYSTUM.misc - Local Database Initialized.
+[30-Oct-24 03:56:29 - INFO] - SYSTUM.core.bot - Starting Bot...
+[30-Oct-24 03:56:31 - INFO] - SYSTUM.misc - Sudoers Loaded.
+[30-Oct-24 03:56:37 - INFO] - SYSTUM.core.bot - Music Bot Started as مشغل مواد دعوة أهل البيت 
+[30-Oct-24 03:56:37 - INFO] - SYSTUM.plugins - Successfully Imported Modules...
+[30-Oct-24 03:56:37 - INFO] - SYSTUM.core.userbot - Starting Assistants...
+[30-Oct-24 03:56:38 - INFO] - SYSTUM.core.userbot - Assistant Started as <a href=tg://user?id=8019187046>ايوب</a>
+[30-Oct-24 03:56:38 - INFO] - SYSTUM.core.call - Starting PyTgCalls Client...
+
+[30-Oct-24 03:56:38 - INFO] - SYSTUM - DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @BRANDEDKING82 JOIN @BRANDRD_BOT , @BRANDED_WORLD FOR ANY ISSUES
+[30-Oct-24 04:08:31 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[30-Oct-24 04:08:31 - INFO] - SYSTUM.core.userbot - Stopping Assistants...
+[30-Oct-24 04:08:31 - INFO] - SYSTUM - Stopping SYSTUM Music Bot...
